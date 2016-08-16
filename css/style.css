@@ -1,0 +1,62 @@
+
+
+.media {
+  border: 5px outset;
+  max-height: 493px;
+  max-width: 496px;
+}
+
+#header {
+  text-decoration: underline;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+img {
+  width:100%;
+  height:100%;
+}
+
+video {
+  width:100%;
+  height:auto;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 37.5%; /* 4:3; */
+  height: 0;
+  width: 100%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border:0;
+}
+
+.div_left {
+  float:left;
+  width: 45%;
+  height:auto;
+}
+
+.div_right {
+  float:right;
+  width:50%;
+}
+
+.clear {
+  clear:both;
+}
+
+table, tr, th, td {
+  border: 3px outset;
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
